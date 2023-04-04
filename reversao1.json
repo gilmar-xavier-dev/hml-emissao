@@ -1,0 +1,33 @@
+{
+    "cancellation_id": "1009876541243211300",
+    "original_purchase_id": "06deb28a-d5ab-45bd-8094-054694394b2c",
+    "account_id": "06deb28a-d5ab-45bd-8094-058694394b2a",
+    "psProductCode": "020101",
+    "countryCode": "076",
+    "source": "paySmart",
+    "callingSystemName": "autorizador-8583.",
+    "original_authorization_id": 123456,
+    "authorization": {
+      "code": "00",
+      "description": "Transação Autorizada"
+    },
+    "brand": "elo",
+    "card": {
+      "paysmart_id": "2347923847",
+      "issuer_id": "9012368543",
+      "pan": "650406******7812",
+      "panseq": "00"
+    },
+    "original_amount": {
+      "amount": 750,
+      "currency_code": 986
+    },
+    "entry_mode": "chip",
+    "cancellation_reason": {
+      "code": 0,
+      "description": "Cancelamento do Consumidor"
+    },
+    "iso8583_message": {
+      "mti": "0100"
+    }
+  }

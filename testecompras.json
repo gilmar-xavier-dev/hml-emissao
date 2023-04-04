@@ -1,0 +1,220 @@
+{
+  "purchase_id": "06deb28a-d5ab-45bd-8094-054694394b2a",
+  "account_id": "06deb28a-d5ab-45bd-8094-058694394b2a",
+  "psProductCode": "020101",
+  "psProductName": "CARTÃO PAYSMART GIFT CARD PF",
+  "productType": "post",
+  "countryCode": "076",
+  "source": "paySmart",
+  "callingSystemName": "autorizador-8583.",
+  "preAuthorization": false,
+  "incrementalAuthorization": false,
+  "authorization": {
+    "code": "00",
+    "description": "Transação Autorizada"
+  },
+  "brand": "elo",
+  "card": {
+    "paysmart_id": "2347923847",
+    "issuer_id": "9012368543",
+    "pan": "650406******7812",
+    "panseq": "00"
+  },
+  "total_amount": {
+    "amount": 135,
+    "currency_code": 986
+  },
+  "dollar_amount": {
+    "amount": 123,
+    "currency_code": 986
+  },
+  "original_amount": {
+    "amount": 123,
+    "currency_code": 986
+  },
+  "dollar_real_rate": "3.70",
+  "spread": "0.04",
+  "entry_mode": "chip",
+  "processing_code": {
+    "tipo_transacao": "purchase",
+    "source_account_type": "not_applicable",
+    "destination_account_type": "not_applicable"
+  },
+  "holder_validation_mode": "online_pin",
+  "fees": [
+    {
+      "amount": {
+        "amount": 123,
+        "currency_code": 986
+      },
+      "type": "iof"
+    }
+  ],
+  "establishment": {
+    "mcc": "1234",
+    "name": "Submarino",
+    "city": "SAO PAULO",
+    "address": "RUA  MANOELITO DE ORNE",
+    "zipcode": "90110230",
+    "country": "076",
+    "cnpj": "30099070000100"
+  },
+  "internacional": false,
+  "original_iso8583": {
+    "mti": "0100",
+    "de002": "string",
+    "de003": "string",
+    "de004": "string",
+    "de005": "string",
+    "de006": "string",
+    "de007": "string",
+    "de008": "string",
+    "de009": "string",
+    "de010": "string",
+    "de011": "string",
+    "de012": "string",
+    "de013": "string",
+    "de014": "string",
+    "de015": "string",
+    "de016": "string",
+    "de018": "string",
+    "de019": "string",
+    "de022": "string",
+    "de023": "string",
+    "de024": "string",
+    "de025": "string",
+    "de026": "string",
+    "de028": "string",
+    "de029": "string",
+    "de032": "string",
+    "de033": "string",
+    "de035": "string",
+    "de036": "string",
+    "de037": "string",
+    "de038": "string",
+    "de039": "string",
+    "de041": "string",
+    "de042": "string",
+    "de043": "string",
+    "de045": "string",
+    "de046": "string",
+    "de047": "string",
+    "de048": "string",
+    "de049": "string",
+    "de050": "string",
+    "de051": "string",
+    "de052": "string",
+    "de053": "string",
+    "de054": "string",
+    "de055": "string",
+    "de056": "string",
+    "de058": "string",
+    "de059": "string",
+    "de060": "string",
+    "de062": "string",
+    "de063": "string",
+    "de090": "string",
+    "de095": "string",
+    "de105": "string",
+    "de106": "string",
+    "de107": "string",
+    "de121": "string",
+    "de122": "string",
+    "de123": "string",
+    "de124": "string",
+    "de125": "string",
+    "de126": "string",
+    "de127": "string"
+  },
+  "forceAccept": false,
+  "fraudData": {
+    "creditorFraudScore": 1234,
+    "eloBrandFraudScore": 567,
+    "fraudScorePrimaryReason": 1,
+    "fraudScoreSecondaryReason": 2,
+    "fraudScoreTertiaryReason": 0,
+    "fraudDecisionRecommendation": "A",
+    "scoreOriginIndicator": 1
+  },
+  "installmentDetails": {
+    "finType": "interestFree",
+    "fare_amount": {
+      "amount": 123,
+      "currency_code": 986
+    },
+    "insurance_amount": {
+      "amount": 123,
+      "currency_code": 986
+    },
+    "third_parties_paymnt_amount": {
+      "amount": 123,
+      "currency_code": 986
+    },
+    "records_payments_amount": {
+      "amount": 123,
+      "currency_code": 986
+    },
+    "issuer_total_calculated_amount": {
+      "amount": 123,
+      "currency_code": 986
+    },
+    "first_paymnt_date": "200107",
+    "instalmnt_nbr": 2,
+    "monthly_interest_rate": 123,
+    "total_effective_cost_rate_cet": 2020,
+    "instalmnt_amount": {
+      "amount": 123,
+      "currency_code": 986
+    },
+    "annual_interest_rate": 2341,
+    "input_value": {
+      "amount": 123,
+      "currency_code": 986
+    }
+  },
+  "nrid": "A12345",
+  "authorizationAdvice": true,
+  "mitAdditionalData": {
+    "installmentTotalNbr": "02",
+    "paymentType": "fixed",
+    "transactionType": "recurrent",
+    "transactionAmountMIT": 10000,
+    "uniqueTransactionID": "string",
+    "transactionFrequency": "monthly",
+    "validationIndicator": "validated",
+    "validationReference": "string",
+    "sequenceIndicator": 1
+  },
+  "additionalTerminalData": {
+    "terminalType": "terminalWithService",
+    "partialApprovalIndicator": "notSupported",
+    "terminalLocationIndicator": "local",
+    "cardholderPresenceIndicator": "present",
+    "cardPresenceIndicator": "cardPresent",
+    "cardCaptureCapabilityIndicator": "cardCaptureCapability",
+    "transactionStatusIndicator": "normal",
+    "transactionSecurityIndicator": "noSuspectedFraud",
+    "terminalPOSType": "atm",
+    "terminalInputCapability": "chip"
+  },
+  "tokenPaymentData": {
+    "fPan": "1234",
+    "requesterIdToken": "12345678901",
+    "pan": "************1234",
+    "tokenPSN": "001",
+    "tokenExpirationDate": "2908",
+    "tokenStatus": "0100",
+    "tokenCryptogramVerificationResults": "0200",
+    "EMVTokenCryptogramVerificationResults": "0200",
+    "tokenConstraintsVerificationStatus": "0300",
+    "transactionDateTimeConstraint": "OK",
+    "transactionAmountConstraint": "OK",
+    "usageConstraint": "OK",
+    "tokenATCVerificationResults": "E001",
+    "CVE2TokenCryptogramVerificationStatus": "E001",
+    "merchantVerification": "OK",
+    "magstripeTokenCryptogramVerificationResults": "0200",
+    "CVE2OutputTokenCryptogramVerificationResults": "0201"
+  },
+  "hceTransaction": false
+}

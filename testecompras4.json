@@ -1,0 +1,51 @@
+{
+  "purchase_id": "06deb28a-d5ab-45bd-8094-054694394b2d",
+  "account_id": "06deb28a-d5ab-45bd-8094-058694394b2a",
+  "psProductCode": "020101",
+  "countryCode": "076",
+  "source": "paySmart",
+  "callingSystemName": "autorizador-8583.",
+  "preAuthorization": false,
+  "incrementalAuthorization": false,
+  "authorization": {
+    "code": "00",
+    "description": "Transa��o Autorizada"
+  },
+  "brand": "elo",
+  "card": {
+    "paysmart_id": "2347923847",
+    "issuer_id": "9012368543",
+    "pan": "650406******7812",
+    "panseq": "00"
+  },
+  "total_amount": {
+    "amount": 20,
+    "currency_code": 986
+  },
+  "original_amount": {
+    "amount": 123,
+    "currency_code": 986
+  },
+  "entry_mode": "chip",
+  "processing_code": {
+    "tipo_transacao": "purchase",
+    "source_account_type": "not_applicable",
+    "destination_account_type": "not_applicable"
+  },
+  "fees": [
+    {
+      "amount": {
+        "amount": 123,
+        "currency_code": 986
+      },
+      "type": "iof"
+    }
+  ],
+  "establishment": {
+    "mcc": "1234"
+  },
+  "internacional": false,
+  "original_iso8583": {
+    "mti": "0100"
+  }
+}
